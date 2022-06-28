@@ -53,3 +53,53 @@ body {
   font-size: 12px;
   line-height: 14px;
 }
+.title_main {
+  position: absolute;
+  width: 382px;
+  height: 75px;
+  left: 529px;
+  top: 190px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.title_main-description-text {
+  position: absolute;
+  width: 268px;
+  height: 44px;
+  left: 586px;
+  top: 291px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+.vertical_line {
+  position: absolute;
+  width: 59px;
+  height: 0px;
+  left: 720px;
+  top: 361px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+}
+.img-planet_earth {
+  position: absolute;
+  width: 1437px;
+  height: 1006px;
+  left: 1px;
+  top: 367px;
+}
