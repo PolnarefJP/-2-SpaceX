@@ -103,3 +103,26 @@ body {
   left: 1px;
   top: 367px;
 }
+.falcon_heavy-specifications-title {
+  position: absolute;
+  width: 177px;
+  height: 68px;
+  left: 149px;
+  top: 1865px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.5px;
+  line-height: 33.6px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.rocket_image {
+  position: absolute;
+  width: 644px;
+  height: 1718px;
+  left: 691px;
+  top: 1307px;
+}
