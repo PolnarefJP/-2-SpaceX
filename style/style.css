@@ -4,6 +4,7 @@ body {
   height: 3559px;
   background: #010001;
 }
+
 .navbar {
   position: absolute;
   width: 1231px;
@@ -11,15 +12,18 @@ body {
   left: 104px;
   top: 53px;
 }
+
 .logo {
   height: 16.7056884765625px;
   width: 138.1180877685547px;
   border-radius: 0px;
 }
+
 .navbar-logo {
   left: 104px;
   top: 53px;
 }
+
 .navbar-menu-main {
   display: flex;
   flex-direction: row;
@@ -33,6 +37,7 @@ body {
   left: 589px;
   top: 54px;
 }
+
 .navbar-menu-others {
   display: flex;
   flex-direction: row;
@@ -46,6 +51,7 @@ body {
   left: 1198px;
   top: 54px;
 }
+
 .navbar-btn {
   font-family: "Roboto";
   font-style: normal;
@@ -53,6 +59,7 @@ body {
   font-size: 12px;
   line-height: 14px;
 }
+
 .title_main {
   position: absolute;
   width: 382px;
@@ -69,6 +76,7 @@ body {
 
   color: #ffffff;
 }
+
 .title_main-description-text {
   position: absolute;
   width: 268px;
@@ -86,6 +94,7 @@ body {
 
   color: #ffffff;
 }
+
 .vertical_line {
   position: absolute;
   width: 59px;
@@ -96,6 +105,7 @@ body {
   border: 1px solid #ffffff;
   transform: rotate(90deg);
 }
+
 .img-planet_earth {
   position: absolute;
   width: 1437px;
@@ -103,7 +113,16 @@ body {
   left: 1px;
   top: 367px;
 }
-.falcon_heavy-specifications-title {
+
+.rocket_image {
+  position: absolute;
+  width: 644px;
+  height: 1718px;
+  left: 691px;
+  top: 1307px;
+}
+
+.fh-specifications-title {
   position: absolute;
   width: 177px;
   height: 68px;
@@ -119,10 +138,115 @@ body {
 
   color: #ffffff;
 }
-.rocket_image {
+
+.fh-specifications-box {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 179.69%;
+
+  color: #ffffff;
+}
+
+.height {
   position: absolute;
-  width: 644px;
-  height: 1718px;
-  left: 691px;
-  top: 1307px;
+  width: 64px;
+  height: 32px;
+  left: 149px;
+  top: 1978px;
+
+  border: 1px solid #000000;
+}
+
+.height-value {
+  position: absolute;
+  width: 119px;
+  height: 32px;
+  right: 884px;
+  top: 1978px;
+
+  border: 1px solid #000000;
+}
+
+.diameter {
+  position: absolute;
+  width: 87px;
+  height: 32px;
+  left: 149px;
+  top: 2021px;
+}
+
+.diameter-value {
+  position: absolute;
+  width: 124px;
+  height: 32px;
+  right: 879px;
+  top: 2021px;
+}
+
+.mass {
+  position: absolute;
+  width: 49px;
+  height: 32px;
+  left: 149px;
+  top: 2064px;
+}
+
+.mass-value {
+  position: absolute;
+  width: 215px;
+  height: 32px;
+  right: 788px;
+  top: 2064px;
+}
+.payload_to_leo {
+  position: absolute;
+  width: 141px;
+  height: 32px;
+  left: 149px;
+  top: 2107px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 179.69%;
+}
+.payload_to_leo-value {
+  position: absolute;
+  width: 178px;
+  height: 32px;
+  right: 825px;
+  top: 2107px;
+}
+.payload_to_gto {
+  position: absolute;
+  width: 148px;
+  height: 32px;
+  left: 149px;
+  top: 2150px;
+}
+.payload_to_gto-value {
+  position: absolute;
+  width: 167px;
+  height: 32px;
+  right: 836px;
+  top: 2150px;
+}
+
+.payload_to_mars {
+  position: absolute;
+  width: 158px;
+  height: 32px;
+  left: 149px;
+  top: 2193px;
+}
+
+.payload_to_mars-value {
+  position: absolute;
+  width: 167px;
+  height: 32px;
+  right: 836px;
+  top: 2193px;
 }
