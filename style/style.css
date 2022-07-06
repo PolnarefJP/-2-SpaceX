@@ -149,6 +149,10 @@ body {
   color: #ffffff;
 }
 
+.text_gray {
+  color: #b2b0b2;
+}
+
 .height {
   position: absolute;
   width: 64px;
