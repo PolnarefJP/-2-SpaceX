@@ -351,3 +351,51 @@ body {
 .social_po {
   width: 49px;
 }
+
+.social-email-text_information {
+  position: absolute;
+  width: 455px;
+  height: 21px;
+  left: 492px;
+  top: 3317px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.social-email-btn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 60px;
+  left: 590px;
+  top: 3368px;
+
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+}
+.social-email-btn_text {
+  position: absolute;
+  width: 87px;
+  height: 21px;
+  left: 677px;
+  top: 3388px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
