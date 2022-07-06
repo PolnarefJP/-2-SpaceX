@@ -60,6 +60,18 @@ body {
 .navbar-btn-main {
   color: #ffffff;
 }
+.f9 {
+  width: 46px;
+}
+.fh {
+  width: 72px;
+}
+.dr {
+  width: 39px;
+}
+.up {
+  width: 45px;
+}
 
 .navbar-menu-others {
   display: flex;
