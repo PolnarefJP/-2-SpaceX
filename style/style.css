@@ -285,3 +285,69 @@ body {
 
   color: #ffffff;
 }
+
+/*footer*/
+
+.footer-logo {
+  position: absolute;
+  left: 651px;
+  top: 3208px;
+}
+
+/*Соцсети*/
+
+.social_network {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 544px;
+  height: 21px;
+  left: 448px;
+  top: 3268px;
+}
+
+.social-btn {
+  display: inline-block;
+  height: 21px;
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  vertical-align: top;
+
+  flex: none;
+
+  flex-grow: 0;
+
+  color: #ffffff;
+}
+
+.social_tw {
+  width: 56px;
+}
+.social_yo {
+  width: 66px;
+}
+.social_in {
+  width: 82px;
+}
+.social_fl {
+  width: 44px;
+}
+.social_li {
+  width: 68px;
+}
+.social_pr {
+  width: 59px;
+}
+.social_po {
+  width: 49px;
+}
