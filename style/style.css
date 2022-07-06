@@ -4,6 +4,7 @@ body {
   position: relative;
   width: 1440px;
   height: 3559px;
+
   background: #010001;
 }
 
@@ -22,6 +23,7 @@ body {
 }
 
 .navbar-logo {
+  display: inline-block;
   left: 104px;
   top: 53px;
 }
@@ -40,6 +42,23 @@ body {
   top: 54px;
 }
 
+.navbar-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-decoration: none;
+
+  flex: none;
+  flex-grow: 0;
+}
+
+.navbar-btn-main {
+  color: #ffffff;
+}
+
 .navbar-menu-others {
   display: flex;
   flex-direction: row;
@@ -54,12 +73,8 @@ body {
   top: 54px;
 }
 
-.navbar-btn {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+.navbar-btn-others {
+  color: #808080;
 }
 
 .title_main {
