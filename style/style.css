@@ -114,14 +114,6 @@ body {
   top: 367px;
 }
 
-.rocket_image {
-  position: absolute;
-  width: 644px;
-  height: 1718px;
-  left: 691px;
-  top: 1307px;
-}
-
 .fh-specifications-title {
   position: absolute;
   width: 177px;
@@ -210,12 +202,6 @@ body {
   height: 32px;
   left: 149px;
   top: 2107px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 179.69%;
 }
 .payload_to_leo-value {
   position: absolute;
@@ -253,4 +239,49 @@ body {
   height: 32px;
   right: 836px;
   top: 2193px;
+}
+
+.rocket_image {
+  position: absolute;
+  width: 644px;
+  height: 1718px;
+  left: 691px;
+  top: 1307px;
+}
+
+.fh-description-title {
+  position: absolute;
+  height: 68px;
+  width: 173px;
+  left: 149px;
+  top: 2443px;
+
+  font-family: "Roboto";
+  font-style: bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: top;
+
+  color: #ffffff;
+}
+
+.fh-description-text {
+  position: absolute;
+  width: 490px;
+  height: 145px;
+  left: 149px;
+  top: 2556px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.75px;
+  vertical-align: top;
+  text-align: left;
+
+  color: #ffffff;
 }
