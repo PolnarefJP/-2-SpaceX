@@ -4,6 +4,7 @@ body {
   position: relative;
   width: 1440px;
   height: 3559px;
+  margin: 0;
 
   background: #010001;
 }
@@ -120,6 +121,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 140%;
+  line-height: 22.4px;
   text-align: center;
   text-transform: lowercase;
 
@@ -132,6 +134,10 @@ body {
   height: 0px;
   left: 720px;
   top: 361px;
+  margin-left: -29.5px;
+  margin-top: 26px;
+
+  z-index: 1;
 
   border: 1px solid #ffffff;
   transform: rotate(90deg);
